@@ -1,4 +1,6 @@
 import './App.css';
+
+// import components
 import Nav from './assets/components/Nav';
 
 function App() {
