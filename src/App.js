@@ -6,6 +6,7 @@ import Nav from './assets/components/Nav';
 
 // import pages
 import Home from './assets/components/pages/Home';
+import Stats from './assets/components/pages/Stats';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -14,6 +15,8 @@ function App() {
     switch (currentPage) {
       case 'home':
         return <Home />
+      case 'stats':
+        return <Stats />
       default:
         return <Home />
     }
