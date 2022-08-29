@@ -1,14 +1,18 @@
 import React from "react";
+import './home.css';
 
 export default function Home() {
 	return (
 		<section>
 			{/* opening paragraph */}
 			<div>
-				<h1>Season 10 - General Paton joins the fight!</h1>
-				<p>
-					From bottom feeder to title contender all are welcome, but only one will prevail. Many seasons passed in the "Demboyz" fantasy football league and now it's time for the start of a new season... Season 10 of fantasy football!  Time for the raging and broken friendships to ensue!
+				<div className="openingTitle container">
+					<h1>Season 10 - General Paton joins the fight!</h1>
+				</div>
+				<p className="containerPara openingPara">
+					From bottom feeder to title contender all are welcome, but only one will prevail. Many seasons passed in the "Demboyz" fantasy football league and now it's time for the start of a new season... Season 10 of fantasy football! Time for the raging and broken friendships to ensue!
 				</p>
+
 			</div>
 
 			<div>

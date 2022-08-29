@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+* {
+	--primary: #512888;
+	--secondary: #1181b2;
+	--tertiary: #B11225;
+	--black: #000;
+	--white: #fff;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+.openingTitle {
+	color: var(--secondary);
+	padding: 10px;
+	padding-top: 50px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.containerPara {
+	color: var(--tertiary);
+	font-weight: bolder;
+	padding: 25px 50px;
+	margin-left: 400px;
+	margin-right: 400px;
+	border: 1px solid var(--black);
+}
+
+.openingPara {
+	font-style: italic;
+}
