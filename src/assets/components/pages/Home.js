@@ -16,18 +16,20 @@ export default function Home() {
 			</div>
 
 			<div>
-				<h2>SHAHREZ RANTS</h2>
-				<p>
+				<div className="openingTitle container">
+					<h2>SHAHREZ RANTS</h2>
+				</div>
+				<p className="containerPara openingPara">
 					HOW THE FUCK DID JOSH WIN?!?!?! WHAT THE FUCK IS WRONG WITH US? HOW DID WE LET THIS HAPPEN?!? TONY. SOME FANTASY GOD YOU TURNED OUT TO BE. COULDNT EVEN BEAT THE GUY WHO BENCHED KAMARA. BRYAN, WAY TO GO. KICKED ASS ALL SEASON ONLY TO DISAPPEAR WHEN YOU PLAYED AGAINST THE GUY WHO PROBABLY THINKS AFRICA IS A COUNTRY. JAMES ALL THIS TALK ABOUT REDEMPTION AND YOU LET TONY AND THE DICKLESS COWBOYS WASTE YOUR SORRY ASS. FUCK ALL YALL
-
-
-					-Following the 2019 Championship match
 				</p>
+				<p className="containerPara openingPara">-Following the 2019 Championship match</p>
 			</div>
 
-			<div>
-				<h2>STUDS AND DUDS</h2>
-				<table>
+			<div className="openingTitle container">
+				<div>
+					<h2>STUDS AND DUDS</h2>
+				</div>
+				<table className="containerPara openingPara">
 					<tr>TBD</tr>
 				</table>
 			</div>

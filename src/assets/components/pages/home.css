@@ -17,12 +17,33 @@ html {
 	font-size: 62.5%;
 }
 
+/* adding the gradiant background */
 body {
 	font-size: 1.6rem;
+	background: linear-gradient(-45deg, #692c95, #5d1eae, #377067, #2e39b8);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+/* end of gradiant bg */
+
 .openingTitle {
-	color: var(--secondary);
+	color: skyblue;
 	padding: 10px;
 	padding-top: 50px;
 }
@@ -34,7 +55,7 @@ body {
 }
 
 .containerPara {
-	color: var(--tertiary);
+	color: var(--white);
 	font-weight: bolder;
 	padding: 25px 50px;
 	margin-left: 400px;
